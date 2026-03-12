@@ -1,0 +1,15 @@
+# ===========================
+# TNT Challenge - Config
+# ===========================
+
+# Fuse TNT dalam ticks (20 ticks = 1 detik)
+# Default: 60 ticks = 3 detik
+fuse-ticks: 60
+
+# Maksimum TNT yang bisa spawn per 1 donate
+max-tnt-per-donate: 50
+
+# Pesan ke player saat TNT spawn
+# {jumlah} = jumlah TNT
+message-player: "§c💣 DONATE MASUK! §e{jumlah} TNT §cspawn di bawahmu! Kabur!!"
+
