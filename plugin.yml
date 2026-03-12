@@ -1,0 +1,19 @@
+name: TNTChallenge
+version: 1.0.0
+main: id.tntchallenge.TNTChallengePlugin
+api-version: 1.19
+author: KurohikoStream
+description: Spawn TNT di bawah player via RCON command
+
+commands:
+  spawntnt:
+    description: Spawn TNT di bawah player
+    usage: /spawntnt <jumlah> [nama_player]
+    permission: tntchallenge.spawn
+    permission-message: §cKamu tidak punya izin!
+
+permissions:
+  tntchallenge.spawn:
+    description: Izin untuk spawn TNT
+    default: op
+
